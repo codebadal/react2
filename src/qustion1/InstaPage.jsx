@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import './Page.css'
+import './InstaPage.css'
 
-function Page() {
+function InstaPage() {
     const [login, setLogin] = useState(false);
 
     const switchLogin = ()=>{
@@ -25,4 +25,4 @@ function Page() {
     )
     
 }
-export default Page;
+export default InstaPage;

@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Page from './componets/Page';
+import CountPage from './qustion2/Countpage';
+import InstaPage from './qustion1/InstaPage';
 
 function App() {
   
   return (
     <div className="App">
-      <Page/>
+      <InstaPage/>
+      <CountPage/>
     </div>
   );
   
